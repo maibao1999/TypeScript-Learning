@@ -10,3 +10,4 @@ const sum2 = (x, y) => {
 }
 
 console.log('>>> The result 2 is ', sum2('Bao', 6))
+awsdasd
