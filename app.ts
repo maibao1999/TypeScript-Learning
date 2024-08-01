@@ -19,4 +19,32 @@
 // console.log(listData);
 
 let count12 = 10;
-let number13 = 'abc'; 
+let number13 = 'abc';
+/// Array
+
+let myarray = ['test', 123, true];
+console.log(myarray);
+myarray.push('3');
+myarray.push(5);
+myarray.push(true);
+console.log(myarray);
+
+//tuple
+// Quan trong thu tu type data
+// Khong the add them phan tu trong mang
+
+let myarray2: [string, number] = ['Bao 1', 123];
+console.log(myarray2);
+
+let myarray3: [string, number, boolean];
+myarray3 = ['Bao 2', 234, false];
+console.log(myarray3);
+
+/// Khai bao optional parameter voi tuple/ e,x : boolean?
+
+let myarray4: [number, string?, boolean?];
+myarray4 = [1];
+console.log(myarray4);
+myarray4 = [123]
+console.log(myarray4);
+
