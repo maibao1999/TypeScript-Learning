@@ -1,7 +1,7 @@
 
 type mytype = number | string;
 // example
-function addNumberOrString(a: mytype | string, b: mytype | string) {
+function addNumberOrString(a: mytype, b: mytype) {
     if (typeof a === 'number' && typeof b === 'number') {
         return a + b;
     } else if (typeof a === 'string' && typeof b === 'string') {
