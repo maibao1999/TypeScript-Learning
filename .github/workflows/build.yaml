@@ -31,11 +31,12 @@ jobs:
             - name: Go to prj
               shell: bash
               run: | 
-                cd Chap2
                 node If-con.js
                 # echo ${{github.ref}}
                 # echo ${{github.actor}}
                 # echo ${{github.env}}
+              working-directory: ./Chap2
+            
                 
                 
                
